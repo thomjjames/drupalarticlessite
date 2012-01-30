@@ -85,6 +85,7 @@ projects[xmlsitemap][subdir] = contrib
 ; experimental
 projects[contentoptimizer][subdir] = contrib
 projects[omega_tools][subdir] = contrib
+projects[disqus][subdir] = contrib
 
 
 ; Themes
