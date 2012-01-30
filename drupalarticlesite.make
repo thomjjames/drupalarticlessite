@@ -84,6 +84,7 @@ projects[xmlsitemap][subdir] = contrib
 
 ; experimental
 projects[contentoptimizer][subdir] = contrib
+projects[omega_tools][subdir] = contrib
 
 
 ; Themes
@@ -118,9 +119,8 @@ libraries[tinymce][directory_name] = "tinymce"
 
 
 ; @todo - Installer Profile
-; projects[front_base][type] = "profile"
-; projects[front_base][download][type] = "git"
-; projects[front_base][download][url] = "git://github.com/front/front_base.git"
-; projects[front_base][download][branch] = "master"
-; projects[front_base][directory_name] = "front_base"
-; projects[front_base][destination] = "profiles"
+projects[articlesite][type] = "profile"
+projects[articlesite][download][type] = "git"
+projects[articlesite][download][url] = "git://github.com/thomjjames/drupalprofiles.git"
+projects[articlesite][download][branch] = "master"
+projects[articlesite][destination] = "profiles"
